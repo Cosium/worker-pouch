@@ -1,11 +1,14 @@
 {
-  "name": "worker-pouch",
+  "name": "@cosium-fork/worker-pouch",
   "version": "2.0.0",
   "description": "PouchDB over a web worker",
   "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://npm.cosium.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nolanlawson/worker-pouch.git"
+    "url": "git://github.com/Cosium/worker-pouch.git"
   },
   "keywords": [
     "pouch",
